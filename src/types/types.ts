@@ -3,3 +3,10 @@ export interface ICard {
   url: string;
   liked: boolean;
 }
+
+export interface ICardById {
+  id: string;
+  url: string;
+  breeds?: [];
+  liked?: boolean;
+}

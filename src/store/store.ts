@@ -1,6 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';
 
+import cardSliceById from './cardByIdSlice';
 import cardsSlice from './cardsSlice';
 import filterSlice from './filterSlice';
 
@@ -14,5 +15,6 @@ export const store = configureStore({
   reducer: {
     cards: cardsSlice,
     filter: filterSlice,
+    card: cardSliceById,
   },
 });

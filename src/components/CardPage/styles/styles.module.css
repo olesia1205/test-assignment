@@ -1,0 +1,50 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin: 20px 0;
+  font-family: montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #2BE080;
+}
+
+.container {
+  display: flex;
+  margin: 0 30px;
+  justify-content: space-between;
+}
+
+.descriptionWrapper {
+  margin: 0 20px;
+  text-align: justify;
+}
+
+.subtitle {
+  margin: 0;
+  font-family: montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.button {
+  margin: 100px 0 0 0;
+  font-family: montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: rgb(43 224 128 / 75%);
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  color: #fff;
+  cursor: pointer;
+}
