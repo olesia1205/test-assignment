@@ -1,9 +1,10 @@
+import CardList from '../CardList/CardList';
 import styles from './styles/styles.module.css';
 
 function App() {
   return (
     <div className={styles.App}>
-      <p>Hello test-assignment</p>
+      <CardList />
     </div>
   );
 }
