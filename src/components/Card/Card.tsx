@@ -41,7 +41,7 @@ function Card({ id, url, liked }: TPropsCard) {
             }
             onClick={handleLikeClick}
           />
-          <h2 className={styles.cardTitle}>{id}</h2>
+          <h2 className={styles.cardTitle}>meow id: {id}</h2>
         </div>
         {isHovered ? (
           <button
